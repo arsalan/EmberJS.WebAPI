@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>http://scientsystems.com/projects/emberjs-webapi</projectUrl>
+    <iconUrl>http://scientsystems.com/assets/emberjs-webapi/projectIcon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Allows working with the default RestAdapter in the Ember-Data library</description>
+    <releaseNotes>Adds a custom JSON serializer and media type former to work with the default Ember.js RestAdapter and RestSerializer.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Ember.js RestAdapter RestSerializer Ember-Data</tags>
+    <dependencies>
+      <dependency id="WebActivatorEx" version="2.0.6" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Content\App_Start\*" target="Content\App_Start" />
+  </files>
+</package>
