@@ -6,8 +6,8 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <projectUrl>http://scientsystems.com/projects/emberjs-webapi</projectUrl>
-    <iconUrl>http://scientsystems.com/assets/emberjs-webapi/projectIcon.png</iconUrl>
+    <projectUrl>http://arsalan.github.io/EmberJS.WebAPI</projectUrl>
+    <iconUrl>https://github.com/arsalan/EmberJS.WebAPI/blob/master/EmberJS.WebAPI-logo.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Allows working with the default RestAdapter in the Ember-Data library</description>
     <releaseNotes>Adds a custom JSON serializer and media type former to work with the default Ember.js RestAdapter and RestSerializer.</releaseNotes>
