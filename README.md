@@ -3,4 +3,4 @@ Allows working with the default RestAdapter in the Ember-Data library simply by 
 
 
 #Usage
-<TBD>
+`PM> Install-Package EmberJS.WebAP`
