@@ -53,7 +53,7 @@ namespace EmberJS.WebAPI
                 {
                     var json = reader.ReadToEnd();
                     var serializer = new EmberJsonSerializer();
-                    var deserialized = serializer.Deserialize(json);
+                    var deserialized = serializer.Deserialize(json, root);
                     return deserialized.ToObject(type);
                 }
             }
@@ -115,7 +115,7 @@ namespace EmberJS.WebAPI
                 return elementTypes[0];
             }
 
-            return null;
+            return type;
         }
     }
 }
