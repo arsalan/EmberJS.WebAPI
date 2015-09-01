@@ -16,6 +16,7 @@
     <dependencies>
       <dependency id="WebActivatorEx" version="2.0.6" />
       <dependency id="Humanizer" version="1.35.0" />
+      <dependency id="Newtonsoft.Json" version="6.0.8" />
     </dependencies>
   </metadata>
   <files>
