@@ -115,7 +115,7 @@ namespace EmberJS.WebAPI
                 return elementTypes[0];
             }
 
-            return null;
+            return type;
         }
     }
 }
